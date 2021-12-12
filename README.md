@@ -1,9 +1,3 @@
-# Fabric Example Mod
+# Mod Name
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in mollis nunc sed id. Ut placerat orci nulla pellentesque dignissim enim. Id porta nibh venenatis cras sed felis eget velit. Eget felis eget nunc lobortis. Quis varius quam quisque id diam vel quam elementum pulvinar. Pharetra pharetra massa massa ultricies. Et malesuada fames ac turpis. Consequat ac felis donec et odio pellentesque diam. Nulla malesuada pellentesque elit eget. Nisi scelerisque eu ultrices vitae auctor eu augue.
