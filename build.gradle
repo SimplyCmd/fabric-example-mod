@@ -16,6 +16,10 @@ repositories {
 		content { includeGroup "curse.maven" }
     }
     maven { url 'https://storage.googleapis.com/devan-maven/' }
+	maven {
+		name = "Gegy's Maven"
+		url = "https://maven.gegy.dev/"
+	}
 }
 
 dependencies {
@@ -29,6 +33,10 @@ dependencies {
 
 	include modImplementation("curse.maven:simplylib-525225:${project.simplylib_version}")
     include modImplementation("net.devtech:arrp:${project.arrp_version}")
+
+	modRuntimeOnly ("supercoder79:databreaker:${databreaker_version}") {
+		exclude module: "fabric-loader"
+	}
 }
 
 processResources {
