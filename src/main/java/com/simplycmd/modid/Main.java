@@ -12,12 +12,9 @@ public class Main implements ModInitializer, ClientModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info(MOD_ID + " activated :O");
-
-		ItemReg.register();
-        BlockReg.register();
 	}
 
 	@Override
-    public void onInitializeClient() {
-    }
+	public void onInitializeClient() {
+	}
 }
