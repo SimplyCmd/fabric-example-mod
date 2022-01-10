@@ -11,9 +11,11 @@ version = project.mod_version
 group = project.mod_package
 
 repositories {
-	maven {
-		url "https://www.cursemaven.com"
-		content { includeGroup "curse.maven" }
+    maven {
+        url "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
     }
     maven { url 'https://storage.googleapis.com/devan-maven/' }
 	maven {
@@ -31,8 +33,8 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	include modImplementation("curse.maven:simplylib-525225:${project.simplylib_version}")
-    include modImplementation("net.devtech:arrp:${project.arrp_version}")
+	include modImplementation("curse.maven:featherlib-525225:${project.featherlib_version}")
+	include modImplementation("net.devtech:arrp:${project.arrp_version}")
 
 	modRuntimeOnly ("supercoder79:databreaker:${databreaker_version}") {
 		exclude module: "fabric-loader"
