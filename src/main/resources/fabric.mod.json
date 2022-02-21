@@ -24,10 +24,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "simplycmd.modid.Main"
+      "com.simplycmd.modid.Main"
     ],
     "client": [
-      "simplycmd.modid.Main"
+      "com.simplycmd.modid.Main"
     ]
   },
   "mixins": [
