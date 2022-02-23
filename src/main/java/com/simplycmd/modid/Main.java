@@ -1,4 +1,4 @@
-package simplycmd.modid;
+package com.simplycmd.modid;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.api.ClientModInitializer;
