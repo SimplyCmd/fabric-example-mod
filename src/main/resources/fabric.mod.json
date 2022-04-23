@@ -24,10 +24,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.simplycmd.modid.Main"
+      "com.simplycmd.modid.Main",
+      "com.simplycmd.modid.ExampleModRegistry"
     ],
     "client": [
       "com.simplycmd.modid.Main"
+    ],
+    "fabric-datagen": [
+      "com.simplycmd.modid.ExampleModRegistry"
     ]
   },
   "mixins": [

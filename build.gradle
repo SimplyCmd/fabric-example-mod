@@ -17,7 +17,6 @@ repositories {
             includeGroup "curse.maven"
         }
     }
-    maven { url 'https://storage.googleapis.com/devan-maven/' }
 	maven {
 		name = "Gegy's Maven"
 		url = "https://maven.gegy.dev/"
@@ -34,7 +33,6 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	include modImplementation("curse.maven:featherlib-525225:${project.featherlib_version}")
-	include modImplementation("net.devtech:arrp:${project.arrp_version}")
 
 	modRuntimeOnly ("supercoder79:databreaker:${databreaker_version}") {
 		exclude module: "fabric-loader"
